@@ -2,13 +2,21 @@
   "name": "bus_routes",
   "version": "1.0.0",
   "description": "Bus Routes",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha ./tests",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SARAN-thala/bus_routes.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SARAN-thala/bus_routes/issues"
+  },
+  "homepage": "https://github.com/SARAN-thala/bus_routes#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
